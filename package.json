@@ -1,0 +1,23 @@
+{
+  "name": "@ngsctt/remark-smartypants",
+  "version": "0.1.0",
+  "description": "A plugin to apply smartypants formatting to markdown processed with Remark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngsctt/remark-smartypants.git"
+  },
+  "keywords": [
+    "remark",
+    "smartypants"
+  ],
+  "author": "Nathan Scott <dev@ngscott.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngsctt/remark-smartypants/issues"
+  },
+  "homepage": "https://github.com/ngsctt/remark-smartypants#readme"
+}
