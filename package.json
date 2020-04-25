@@ -1,6 +1,6 @@
 {
   "name": "@ngsctt/remark-smartypants",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A plugin to apply smartypants formatting to markdown processed with Remark",
   "main": "index.js",
   "scripts": {
