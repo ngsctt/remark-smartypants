@@ -1,5 +1,8 @@
 # @ngsctt/remark-smartypants
-A plugin to apply [SmartyPants][] formatting to markdown processed with [Remark][]. Uses [retext-smartypants][] Based on the tutorials at https://mdxjs.com/advanced/plugins#using-retext-plugins and https://unifiedjs.com/learn/guide/create-a-plugin/. Probably very similar or identical to [@silvenon/remark-smartypants][silvernon] for that reason.
+A plugin to apply [SmartyPants][] formatting to markdown processed with [Remark][].
+Uses [retext-smartypants][] Based on the tutorials at https://mdxjs.com/advanced/plugins#using-retext-plugins and https://unifiedjs.com/learn/guide/create-a-plugin/.
+Probably very similar or identical to [@silvenon/remark-smartypants][silvernon] for that reason.
+Additionally checks that the text is not inside a `<script>` or `<style>` node.
 
 ## Why
 I wanted smart quotes in my markdown, and I didn't want to litter my code with this plugin.
