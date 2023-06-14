@@ -36,7 +36,7 @@ unified()
   .use(smartypants)
   .use(html)
   .process(input, (error, formatted) => {
-    console.log = String(formatted);
+    console.log(String(formatted));
   });
 ```
 
